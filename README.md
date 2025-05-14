@@ -63,7 +63,7 @@ Create a `.env` file in each project root (React, NestJS, Node.js) with the foll
 
 ```dotenv
 # Icon Browser (React)
-REACT_APP_API_URL=http://localhost:3001/api   # or 3002 for Node.js backend
+REACT_APP_API_URL=http://localhost:3001   # or 3002 for Node.js backend
 
 # Common API credentials for both backends:
 API_KEY=your_noun_project_api_key
