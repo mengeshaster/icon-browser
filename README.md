@@ -39,13 +39,19 @@ Both the NestJS and Node.js servers provide identical functionality as backends.
 
    ```bash
    git clone https://github.com/mengeshaster/icon-browser.git
-
+   cd icon-browser
    ```
 
-2. **Install dependencies** for all three projects (React, NestJS, Node.js):
+2. **Install dependencies** in each project folder:
 
    ```bash
-   # in the root folder (if you have a monorepo setup) or in each project folder:
+   cd leverate-icon-browser
+   npm install
+
+   cd ../leverate-server-nest-js
+   npm install
+
+   cd ../leverate-server-node-js
    npm install
    ```
 
